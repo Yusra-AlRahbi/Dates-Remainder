@@ -33,3 +33,18 @@
   font-weight: 900;
   font-style: normal;
 }
+
+
+.rectangle{
+  height: 600px;
+  border-radius: 15px;
+  background-color: #ffffffff;
+  box-shadow: 1px 4px 4px 1px rgba(85, 85, 85, 0.25);
+}
+
+.btn-style{
+  width: 200px;
+  border-radius: 8px;
+  color: white;
+  background-color: #224f61;
+}
