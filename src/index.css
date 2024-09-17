@@ -34,7 +34,7 @@
   font-style: normal;
 }
 
-
+/* Container */
 .rectangle{
   height: 600px;
   border-radius: 15px;
@@ -42,9 +42,22 @@
   box-shadow: 1px 4px 4px 1px rgba(85, 85, 85, 0.25);
 }
 
+/* Button */
 .btn-style{
   width: 200px;
   border-radius: 8px;
   color: white;
   background-color: #224f61;
+}
+
+/* Image Avtar */
+
+.img-avtar {
+ height: 60px;
+ width: 60px;
+ border-radius: 50%;
+}
+
+.mt-0{
+  margin-top: 0;
 }
