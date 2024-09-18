@@ -13,7 +13,7 @@ function DatesList({person}) {
                             <img
                               className="img-avtar "
                               alt="avtar"
-                              src="../src/assets/img/avatar.png"
+                              src={item.img}
                             />
                             <div className="px-3">
                               <p className="d-inline fs-5">{item.name}</p>
