@@ -1,10 +1,11 @@
 import { Col, Row } from "react-bootstrap"
 
-function DatesCount({data}) {
+
+function DatesCount({person}) {
   return (
-    <Row className="justify-content-center">
+    <Row className="justify-content-center my-2">
     <Col sm="8" className="">
-      لديك {data.length} مواعيد اليوم
+      لديك {person.length} مواعيد اليوم
     </Col>
   </Row>
   )
